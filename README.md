@@ -30,27 +30,5 @@ encapsulamiento.js    # Ejemplo de encapsulamiento
 ...                   # Otros conceptos de POO
 
 
-Ejemplo de código:
-
-// Ejemplo de herencia
-class Animal {
-  constructor(nombre) {
-    this.nombre = nombre;
-  }
-  hablar() {
-    console.log(`${this.nombre} hace un sonido.`);
-  }
-}
-
-class Perro extends Animal {
-  hablar() {
-    console.log(`${this.nombre} ladra.`);
-  }
-}
-
-const perro = new Perro("Tropiko");
-perro.hablar(); // Tropiko ladra.
-
-
 👨‍💻 Autor
 - Angee Camila Gonzalez. – Estudiante de Ingeniería de Sistemas
