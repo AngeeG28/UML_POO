@@ -1,0 +1,56 @@
+UML y Programación Orientada a Objetos (POO):
+
+Descripción: Este repositorio contiene ejemplos prácticos de POO en JavaScript, desarrollados en clase siguiendo las explicaciones del profesor.
+Cada archivo ilustra una propiedad fundamental de la programación orientada a objetos, acompañada de diagramas UML para reforzar la comprensión.
+
+Conceptos abordados:
+- Clase y objetos 
+- Abstracción 
+- Encapsulamiento 
+- Herencia 
+- Asociación 
+- Agregación 
+- Composición 
+- Dependencia 
+
+Tecnologías utilizadas:
+- JavaScript (ES6)
+- UML (Unified Modeling Language)
+
+Estructura del proyecto:
+
+Ejemplos de UML.mdj   # Diagramas UML
+
+clase.js              # Ejemplo de clase
+
+herencia.js           # Ejemplo de herencia
+
+encapsulamiento.js    # Ejemplo de encapsulamiento
+
+...                   # Otros conceptos de POO
+
+
+Ejemplo de código:
+
+// Ejemplo de herencia
+class Animal {
+  constructor(nombre) {
+    this.nombre = nombre;
+  }
+  hablar() {
+    console.log(`${this.nombre} hace un sonido.`);
+  }
+}
+
+class Perro extends Animal {
+  hablar() {
+    console.log(`${this.nombre} ladra.`);
+  }
+}
+
+const perro = new Perro("Tropiko");
+perro.hablar(); // Tropiko ladra.
+
+
+👨‍💻 Autor
+- Angee Camila Gonzalez. – Estudiante de Ingeniería de Sistemas
